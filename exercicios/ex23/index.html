@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           background-color: rgba(145, 42, 42, 0.497);
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            width: 450px;
+            border-collapse: collapse;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.312);
+        }
+
+        tr.especificacao{
+            background-color: rgb(255, 255, 255);
+            font-weight: bolder;
+        }
+
+        tr#neymar{
+            background-image: linear-gradient(to right, #009739, #F7D800, #002672);
+            font-weight: bolder;
+            color: black;
+        }
+
+        tr#cr7{
+            background-image:linear-gradient(to right, #006300 ,#F70000);
+            font-weight: bolder;
+            color: black;
+        }
+
+        tr#messi{
+            background-image:linear-gradient(to right, #70A7D8 ,#F7F7F7);
+            font-weight: bolder;
+            color: black;
+        }
+
+        td{
+            border: 2px solid black;
+            padding: 7px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Primeira Tabela em HTML</h1>
+
+    <table>
+        <tr class="especificacao">
+            <td>NOME</td>
+            <td>POSIÇÃO</td>
+            <td>PAÍS</td>
+        </tr>
+
+        <tr id="neymar">
+            <td>Neymar</td>
+            <td>Meia Ofensivo</td>
+            <td>Brasil</td>
+        </tr>
+
+        <tr id="cr7">
+            <td>Cristiano Ronaldo</td>
+            <td>Atacante</td>
+            <td>Portugal</td>
+        </tr>
+
+        <tr id="messi">
+            <td>Lionel Messi</td>
+            <td>Meia Ofensivo</td>
+            <td>Argentina</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
