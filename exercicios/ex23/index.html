@@ -18,6 +18,7 @@
         }
 
         table{
+            height: 300px;
             width: 450px;
             border-collapse: collapse;
             box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.312);
@@ -26,6 +27,8 @@
         tr.especificacao{
             background-color: rgb(255, 255, 255);
             font-weight: bolder;
+            text-align: center;
+            vertical-align: middle;
         }
 
         tr#neymar{
@@ -49,7 +52,14 @@
         td{
             border: 2px solid black;
             padding: 7px;
+            text-align: center;
+            vertical-align: middle;
         }
+
+        .cima{
+            vertical-align: top;
+        }
+
     </style>
 
 </head>
@@ -59,9 +69,9 @@
 
     <table>
         <tr class="especificacao">
-            <td>NOME</td>
-            <td>POSIÇÃO</td>
-            <td>PAÍS</td>
+            <td class="cima">NOME</td>
+            <td class="cima">POSIÇÃO</td>
+            <td class="cima">PAÍS</td>
         </tr>
 
         <tr id="neymar">
